@@ -38,9 +38,8 @@ header {
   /* margin-bottom: 20px; */
 }
 
-
-
 ol {
+  font-size: 16px;
   list-style-type: none;
   padding: 20px;
   display: inline-block;
@@ -57,6 +56,11 @@ li {
 a:link {
   color: plum;
   font-weight: bolder;
+}
+
+a:hover {
+  background: purple;
+  color: white;
 }
 
 h2 {
@@ -79,15 +83,42 @@ h2 {
     line-height: 170%;
   }
 
+  /* Style the Input Forms on Contact Page */
+  .content {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  #name {
+    width: 920px;
+  }
+
+  #email {
+    width: 920px;
+  }
+
+  #message {
+    width: 920px;
+    height: 100px;
+  }
+  .submit-button {
+    font-family: Arial, Helvetica, sans-serif;
+    background: plum;
+    font-size: 16px;
+    padding: 10px;
+  }
+
     /* Style the footer */
  footer {
-        padding: 30px;
+        padding-top: 50px;
         text-align: center;
         bottom: 0;
         position: fixed;
         background: plum;
         width: 100%;
-        font-size: 20px;
+        font-size: 16px;
         border-top: 15px solid rgb(204, 198, 198);
         left: 0;
         font-family: Arial, Helvetica, sans-serif;
